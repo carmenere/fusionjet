@@ -1,7 +1,7 @@
 [package]
 authors = ["Anton Romanov <a.romanovich86@gmail.com>"]
 edition = "2021"
-keywords = ["tcp", "proxy", "proxy server"]
+keywords = ["tcp", "proxy", "server"]
 license = "MIT"
 name = "fjt"
 repository = "https://github.com/carmenere/fusionjet"
