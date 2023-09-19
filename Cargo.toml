@@ -1,0 +1,16 @@
+[package]
+authors = ["Anton Romanov <a.romanovich86@gmail.com>"]
+edition = "2021"
+keywords = ["tcp", "proxy", "proxy server"]
+license = "MIT"
+name = "fjt"
+repository = "https://github.com/carmenere/fusionjet"
+rust-version = "1.72.0"
+version = "0.0.0"
+
+[profile.release]
+strip = "symbols"
+
+[profile.dev]
+opt-level = 3
+debug = 1
